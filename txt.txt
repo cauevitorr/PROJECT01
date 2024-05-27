@@ -1,7 +1,26 @@
+// iniciar branch ou projeto
 git init
+
+// adicionar todos os arquivos ao projeto
 git add .
+
+// comitar o que foi selecionado
 git commit -m "Meu primeiro commit"
+
+// declarar o repositório do github
 git remote add origin https://github.com/cauevitorr/01project.git
+
+// adicionar o projeto no repositorio do github declarado
+git push -u origin master
+
+// mudar o link do github
+git remote set-url origin https://github.com/cauevitorr/01project.git
+
+// overviwe
 git status
 git branch --list
-git push -u origin master
+
+git run buil
+git add dist --force
+git commit -m "Meu primeiro commit"
+git subtree push --prefix dist origin
