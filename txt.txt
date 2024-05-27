@@ -13,6 +13,8 @@ git remote add origin https://github.com/cauevitorr/01project.git
 // adicionar o projeto no repositorio do github declarado
 git push -u origin master
 
+//git subtree push --prefix dist origin react-past 
+
 // mudar o link do github
 git remote set-url origin https://github.com/cauevitorr/01project.git
 
